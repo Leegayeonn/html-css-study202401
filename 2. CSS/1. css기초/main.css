@@ -1,0 +1,11 @@
+
+
+/*사이드css를 메인css로 불러와서 index.html에 링크를 여러개 
+당길필요없이 사용  아래 import      */
+
+@import "./side.css";
+
+h1,p {
+  color: blueviolet;
+  background: orange;
+}
