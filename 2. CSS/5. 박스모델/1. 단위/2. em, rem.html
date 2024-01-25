@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-<style> 
+  <style>
+    html {
+      font-size: 10px;
+    }
 
-html {
-  font-size: 10px;
-}
+    body * {
+      border: 2px solid black;
+    }
 
-body * {
-  border: 2px solid black;
-}
+    .container {
+      font-size: 20px;
+      width: 60em;
+    }
 
-.container {
-  font-size: 20px;
-  width: 60em;
-}
+    .parent {
+      width: 50%;
+      font-size: 2em;
+    }
 
-.parent {
-  width: 50%;
-  font-size: 2em;
-}
-
-.child {
-  width: 30%;
-  font-size: 3rem;
-}
-
+    .child {
+      width: 30%;
+      font-size: 3rem;
+    }
 
 
 
-/*부모에게 상속
-rem은 html소속
 
+    /*부모에게 상속
+rem은 html소속 : html태그에는 기본값으로 16px이 정의
+2rem은 32px이됩니다
 
 */
-
-
-</style>
+  </style>
 </head>
+
 <body>
 
-  
+
   <div class="container">Container
     <div class="parent">Parent
       <div class="child">Child1</div>
@@ -56,4 +55,5 @@ rem은 html소속
 
 
 </body>
+
 </html>
