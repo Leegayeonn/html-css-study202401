@@ -1,0 +1,83 @@
+@import url(../../common.css);
+
+
+
+
+body {
+  background: #9b9b9b;
+  
+}
+
+header h1 {
+  height: 110px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  background: #faa810;
+  text-align: center;
+
+
+}
+
+header h1 span {
+  font-size: 15px;
+  display: block;
+  padding: 18px;
+}
+
+header .stit {
+  font-size: 13px;
+  text-align: center;
+  background: #b9b9b9;
+  
+  padding: 2px;
+}
+
+.side-menu {
+  float: left;
+  width: 25%;
+  margin: 0 8px 0 0;
+
+
+}
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.container .side-menu h3 {
+  color: white;
+  background: #880404;
+  padding: 8px;
+  
+}
+
+.container .side-menu ul {
+  background: white;
+  font-size: 13px;
+  padding: 8px;
+  line-height: 2;
+  text-decoration: underline;
+  
+}
+
+.main-content {
+  width: 50%;
+
+}
+
+.main-content .art-piece .title {
+  background: #123456;
+  font-weight: bold;
+  color: white;
+  padding: 2px;
+}
+
+
+
+
+
+
+
