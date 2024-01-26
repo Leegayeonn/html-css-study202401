@@ -8,6 +8,12 @@ body {
   
 }
 
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
 header h1 {
   height: 110px;
   color: white;
@@ -15,9 +21,8 @@ header h1 {
   font-weight: bold;
   background: #faa810;
   text-align: center;
-
-
 }
+
 
 header h1 span {
   font-size: 15px;
@@ -25,25 +30,25 @@ header h1 span {
   padding: 18px;
 }
 
+
 header .stit {
   font-size: 13px;
+  /* font-family: ; */
   text-align: center;
   background: #b9b9b9;
-  
-  padding: 2px;
+  padding: 4px;
 }
+
+/*b*/
+
+
+
 
 .side-menu {
   float: left;
   width: 25%;
-  margin: 0 8px 0 0;
-
-
-}
-
-#wrapper {
-  width: 80%;
-  margin: 0 auto;
+  background: white;
+  
 
 }
 
@@ -55,8 +60,7 @@ header .stit {
 }
 
 .container .side-menu ul {
-  background: white;
-  font-size: 13px;
+  font-size: 10px;
   padding: 8px;
   line-height: 2;
   text-decoration: underline;
@@ -64,16 +68,100 @@ header .stit {
 }
 
 .main-content {
-  width: 50%;
+  width: 48%;
+  float: left;
 
+  background: #9b9b9b;
+  margin: 20px 12px 0 12px;
+
+}
+.main-content .art-piece {
+  color: #123456;
+ 
 }
 
 .main-content .art-piece .title {
   background: #123456;
   font-weight: bold;
   color: white;
-  padding: 2px;
+  padding: 10px;
 }
+
+.main-content .art-piece .artist {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 0 0 10px;
+  
+}
+
+.main-content .art-piece .detail {
+  font-size: 10px;
+  padding: 15px;
+}
+
+.container .banner {
+  width: 25%;
+  font-family: ;
+  background: white;
+  float: left;
+  padding: 20px 13px;
+}
+
+.container .banner .all {
+  display: block;
+  color: #9b9b9b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container .banner .love {
+display: block;
+color: orange;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.container .banner strong {
+  font-weight: bold;
+  
+}
+
+.container .banner h3 {
+  line-height: 2;
+}
+
+.banner .link {
+  font-size: 13px;
+  font-family: serif, sans-serif;
+  padding-top: 20px;
+  
+  
+}
+.banner .link li a {
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+
+
+.banner .link li span {
+  display: block;
+  line-height: 2;
+
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
