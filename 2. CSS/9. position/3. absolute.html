@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .grandparent {
+      width: 400px;
+      height: 300px;
+      padding: 100px;
+      border: 4px dashed gray;
+      position: relative;
+      
+    }
+
+    .parent {
+      width: 300px;
+      height: 300px;
+      border: 4px dashed lightgray;
+      position: absolute;
+      left: 100px;
+      top: 200px;
+      
+    }
+
+    .child {
+      width: 120px;
+      height: 80px;
+      background: tomato;
+      border: 4px dashed red;
+      border-radius: 10px;
+      font-size: 30px;
+    }
+
+    .absolute {
+      position: absolute;
+      right: 100px;
+      bottom: 150px;
+
+    }
+    /*absolute (절대적이게) 독립적으로 이동, 
+    기준이 되는 부모요소에 position : relative 
+    (포지션요소를 주면됨 뭐든 relative,absolute 둘중에 아무거나) 
+    주면 가장 가까이에 있는 부모기준으로 박스위치 변경
+    
+    부모중에 요소가 없으면 화면을 기준으로 위치변경*/
+
+    /*차이점 
+    
+    
+    */
+  </style>
+</head>
+<body>
+
+  <div class="grandparent">
+    <div class="parent">
+      <div class="child">1</div>
+      <div class="child absolute">2</div>
+      <div class="child">3</div>
+    </div>
+  </div>
+  
+</body>
+</html>
