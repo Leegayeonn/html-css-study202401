@@ -47,6 +47,7 @@ header .stit {
 .side-menu {
   float: left;
   width: 25%;
+  height: 674px;
   background: white;
   
 
@@ -61,8 +62,9 @@ header .stit {
 
 .container .side-menu ul {
   font-size: 10px;
-  padding: 8px;
-  line-height: 2;
+  font-weight: 700;
+  padding: 9px;
+  line-height: 3;
   text-decoration: underline;
   
 }
@@ -71,12 +73,13 @@ header .stit {
   width: 48%;
   float: left;
 
-  background: #9b9b9b;
-  margin: 20px 12px 0 12px;
+  background: #dedddd;
+  /* margin: 20px 12px 0 12px; */
 
 }
 .main-content .art-piece {
   color: #123456;
+  padding: 10px;
  
 }
 
@@ -101,7 +104,7 @@ header .stit {
 
 .container .banner {
   width: 25%;
-  font-family: ;
+  height: 674px;
   background: white;
   float: left;
   padding: 20px 13px;
@@ -150,8 +153,17 @@ text-decoration: underline;
 
 }
   
-}
+footer address {
+color: white;
+background: #123456;
+font-size: 12px;
+text-align: center;
+padding: 5px;
+} 
 
+footer address a {
+  text-decoration: underline;
+}
 
 
 
