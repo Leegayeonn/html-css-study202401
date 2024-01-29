@@ -41,6 +41,9 @@ header .stit {
 
 /*b*/
 
+.container {
+  background: white;
+}
 
 
 
@@ -70,9 +73,8 @@ header .stit {
 }
 
 .main-content {
-  width: 48%;
+  width: 50%;
   float: left;
-
   background: #dedddd;
   /* margin: 20px 12px 0 12px; */
 
